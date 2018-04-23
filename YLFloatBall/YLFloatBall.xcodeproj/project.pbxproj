@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC83410E208DB4C500FEC00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC83410D208DB4C500FEC00D /* AppDelegate.m */; };
+		BC834114208DB4C600FEC00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC834112208DB4C600FEC00D /* Main.storyboard */; };
+		BC834116208DB4C600FEC00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC834115208DB4C600FEC00D /* Assets.xcassets */; };
+		BC834119208DB4C600FEC00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC834117208DB4C600FEC00D /* LaunchScreen.storyboard */; };
+		BC83411C208DB4C600FEC00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC83411B208DB4C600FEC00D /* main.m */; };
+		BC834126208DB4C600FEC00D /* YLFloatBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC834125208DB4C600FEC00D /* YLFloatBallTests.m */; };
+		BC834131208DB4C600FEC00D /* YLFloatBallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC834130208DB4C600FEC00D /* YLFloatBallUITests.m */; };
+		BC834142208DB5E000FEC00D /* YLFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC83413F208DB5DF00FEC00D /* YLFloatingView.m */; };
+		BC834143208DB5E000FEC00D /* YLWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC834141208DB5E000FEC00D /* YLWindowManager.m */; };
+		BC834146208DB95000FEC00D /* LiveChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC834145208DB95000FEC00D /* LiveChatRoomViewController.m */; };
+		BC834149208DB9B700FEC00D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC834148208DB9B700FEC00D /* MainViewController.m */; };
+		BC83414D208DBD5500FEC00D /* YLCircleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC83414C208DBD5400FEC00D /* YLCircleWindow.m */; };
+		C462570801CC09E226CF13EC /* libPods-YLFloatBall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DDEE8871BE2391D9B4412 /* libPods-YLFloatBall.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC834122208DB4C600FEC00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC834101208DB4C500FEC00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC834108208DB4C500FEC00D;
+			remoteInfo = YLFloatBall;
+		};
+		BC83412D208DB4C600FEC00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC834101208DB4C500FEC00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC834108208DB4C500FEC00D;
+			remoteInfo = YLFloatBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF92E7DF8D6A67CF7E359C6C /* Pods-YLFloatBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLFloatBall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLFloatBall/Pods-YLFloatBall.debug.xcconfig"; sourceTree = "<group>"; };
+		BC834109208DB4C500FEC00D /* YLFloatBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLFloatBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC83410C208DB4C500FEC00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC83410D208DB4C500FEC00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC834113208DB4C600FEC00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC834115208DB4C600FEC00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC834118208DB4C600FEC00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC83411A208DB4C600FEC00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC83411B208DB4C600FEC00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC834121208DB4C600FEC00D /* YLFloatBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLFloatBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC834125208DB4C600FEC00D /* YLFloatBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFloatBallTests.m; sourceTree = "<group>"; };
+		BC834127208DB4C600FEC00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC83412C208DB4C600FEC00D /* YLFloatBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLFloatBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC834130208DB4C600FEC00D /* YLFloatBallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFloatBallUITests.m; sourceTree = "<group>"; };
+		BC834132208DB4C600FEC00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC83413E208DB5DF00FEC00D /* YLFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFloatingView.h; sourceTree = "<group>"; };
+		BC83413F208DB5DF00FEC00D /* YLFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFloatingView.m; sourceTree = "<group>"; };
+		BC834140208DB5E000FEC00D /* YLWindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWindowManager.h; sourceTree = "<group>"; };
+		BC834141208DB5E000FEC00D /* YLWindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWindowManager.m; sourceTree = "<group>"; };
+		BC834144208DB95000FEC00D /* LiveChatRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveChatRoomViewController.h; sourceTree = "<group>"; };
+		BC834145208DB95000FEC00D /* LiveChatRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveChatRoomViewController.m; sourceTree = "<group>"; };
+		BC834147208DB9B700FEC00D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BC834148208DB9B700FEC00D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BC83414B208DBD5400FEC00D /* YLCircleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCircleWindow.h; sourceTree = "<group>"; };
+		BC83414C208DBD5400FEC00D /* YLCircleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCircleWindow.m; sourceTree = "<group>"; };
+		F13DDEE8871BE2391D9B4412 /* libPods-YLFloatBall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLFloatBall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B58BEBAC1A91043A1BF885 /* Pods-YLFloatBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLFloatBall.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLFloatBall/Pods-YLFloatBall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC834106208DB4C500FEC00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C462570801CC09E226CF13EC /* libPods-YLFloatBall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC83411E208DB4C600FEC00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC834129208DB4C600FEC00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ADA135A24AF3A2CC8D667E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF92E7DF8D6A67CF7E359C6C /* Pods-YLFloatBall.debug.xcconfig */,
+				F5B58BEBAC1A91043A1BF885 /* Pods-YLFloatBall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC834100208DB4C500FEC00D = {
+			isa = PBXGroup;
+			children = (
+				BC83410B208DB4C500FEC00D /* YLFloatBall */,
+				BC834124208DB4C600FEC00D /* YLFloatBallTests */,
+				BC83412F208DB4C600FEC00D /* YLFloatBallUITests */,
+				BC83410A208DB4C500FEC00D /* Products */,
+				4ADA135A24AF3A2CC8D667E5 /* Pods */,
+				E5538A26F1AA2F2E5FD0B10C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC83410A208DB4C500FEC00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC834109208DB4C500FEC00D /* YLFloatBall.app */,
+				BC834121208DB4C600FEC00D /* YLFloatBallTests.xctest */,
+				BC83412C208DB4C600FEC00D /* YLFloatBallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC83410B208DB4C500FEC00D /* YLFloatBall */ = {
+			isa = PBXGroup;
+			children = (
+				BC83414A208DBD4600FEC00D /* View */,
+				BC83410C208DB4C500FEC00D /* AppDelegate.h */,
+				BC83410D208DB4C500FEC00D /* AppDelegate.m */,
+				BC834147208DB9B700FEC00D /* MainViewController.h */,
+				BC834148208DB9B700FEC00D /* MainViewController.m */,
+				BC834144208DB95000FEC00D /* LiveChatRoomViewController.h */,
+				BC834145208DB95000FEC00D /* LiveChatRoomViewController.m */,
+				BC834112208DB4C600FEC00D /* Main.storyboard */,
+				BC834115208DB4C600FEC00D /* Assets.xcassets */,
+				BC834117208DB4C600FEC00D /* LaunchScreen.storyboard */,
+				BC83411A208DB4C600FEC00D /* Info.plist */,
+				BC83411B208DB4C600FEC00D /* main.m */,
+			);
+			path = YLFloatBall;
+			sourceTree = "<group>";
+		};
+		BC834124208DB4C600FEC00D /* YLFloatBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC834125208DB4C600FEC00D /* YLFloatBallTests.m */,
+				BC834127208DB4C600FEC00D /* Info.plist */,
+			);
+			path = YLFloatBallTests;
+			sourceTree = "<group>";
+		};
+		BC83412F208DB4C600FEC00D /* YLFloatBallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC834130208DB4C600FEC00D /* YLFloatBallUITests.m */,
+				BC834132208DB4C600FEC00D /* Info.plist */,
+			);
+			path = YLFloatBallUITests;
+			sourceTree = "<group>";
+		};
+		BC83414A208DBD4600FEC00D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC834140208DB5E000FEC00D /* YLWindowManager.h */,
+				BC834141208DB5E000FEC00D /* YLWindowManager.m */,
+				BC83413E208DB5DF00FEC00D /* YLFloatingView.h */,
+				BC83413F208DB5DF00FEC00D /* YLFloatingView.m */,
+				BC83414B208DBD5400FEC00D /* YLCircleWindow.h */,
+				BC83414C208DBD5400FEC00D /* YLCircleWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5538A26F1AA2F2E5FD0B10C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13DDEE8871BE2391D9B4412 /* libPods-YLFloatBall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC834108208DB4C500FEC00D /* YLFloatBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC834135208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBall" */;
+			buildPhases = (
+				6D9F7898BE563883CAD0B995 /* [CP] Check Pods Manifest.lock */,
+				BC834105208DB4C500FEC00D /* Sources */,
+				BC834106208DB4C500FEC00D /* Frameworks */,
+				BC834107208DB4C500FEC00D /* Resources */,
+				87084357A3EF6D2DFE3A98FC /* [CP] Embed Pods Frameworks */,
+				4EF45104A6B5C9F4B8FCC40D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLFloatBall;
+			productName = YLFloatBall;
+			productReference = BC834109208DB4C500FEC00D /* YLFloatBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC834120208DB4C600FEC00D /* YLFloatBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC834138208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBallTests" */;
+			buildPhases = (
+				BC83411D208DB4C600FEC00D /* Sources */,
+				BC83411E208DB4C600FEC00D /* Frameworks */,
+				BC83411F208DB4C600FEC00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC834123208DB4C600FEC00D /* PBXTargetDependency */,
+			);
+			name = YLFloatBallTests;
+			productName = YLFloatBallTests;
+			productReference = BC834121208DB4C600FEC00D /* YLFloatBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC83412B208DB4C600FEC00D /* YLFloatBallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC83413B208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBallUITests" */;
+			buildPhases = (
+				BC834128208DB4C600FEC00D /* Sources */,
+				BC834129208DB4C600FEC00D /* Frameworks */,
+				BC83412A208DB4C600FEC00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC83412E208DB4C600FEC00D /* PBXTargetDependency */,
+			);
+			name = YLFloatBallUITests;
+			productName = YLFloatBallUITests;
+			productReference = BC83412C208DB4C600FEC00D /* YLFloatBallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC834101208DB4C500FEC00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "于露";
+				TargetAttributes = {
+					BC834108208DB4C500FEC00D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					BC834120208DB4C600FEC00D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC834108208DB4C500FEC00D;
+					};
+					BC83412B208DB4C600FEC00D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC834108208DB4C500FEC00D;
+					};
+				};
+			};
+			buildConfigurationList = BC834104208DB4C500FEC00D /* Build configuration list for PBXProject "YLFloatBall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC834100208DB4C500FEC00D;
+			productRefGroup = BC83410A208DB4C500FEC00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC834108208DB4C500FEC00D /* YLFloatBall */,
+				BC834120208DB4C600FEC00D /* YLFloatBallTests */,
+				BC83412B208DB4C600FEC00D /* YLFloatBallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC834107208DB4C500FEC00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC834119208DB4C600FEC00D /* LaunchScreen.storyboard in Resources */,
+				BC834116208DB4C600FEC00D /* Assets.xcassets in Resources */,
+				BC834114208DB4C600FEC00D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC83411F208DB4C600FEC00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC83412A208DB4C600FEC00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EF45104A6B5C9F4B8FCC40D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLFloatBall/Pods-YLFloatBall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9F7898BE563883CAD0B995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87084357A3EF6D2DFE3A98FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLFloatBall/Pods-YLFloatBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC834105208DB4C500FEC00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC834146208DB95000FEC00D /* LiveChatRoomViewController.m in Sources */,
+				BC83411C208DB4C600FEC00D /* main.m in Sources */,
+				BC83410E208DB4C500FEC00D /* AppDelegate.m in Sources */,
+				BC834149208DB9B700FEC00D /* MainViewController.m in Sources */,
+				BC834142208DB5E000FEC00D /* YLFloatingView.m in Sources */,
+				BC834143208DB5E000FEC00D /* YLWindowManager.m in Sources */,
+				BC83414D208DBD5500FEC00D /* YLCircleWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC83411D208DB4C600FEC00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC834126208DB4C600FEC00D /* YLFloatBallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC834128208DB4C600FEC00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC834131208DB4C600FEC00D /* YLFloatBallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC834123208DB4C600FEC00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC834108208DB4C500FEC00D /* YLFloatBall */;
+			targetProxy = BC834122208DB4C600FEC00D /* PBXContainerItemProxy */;
+		};
+		BC83412E208DB4C600FEC00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC834108208DB4C500FEC00D /* YLFloatBall */;
+			targetProxy = BC83412D208DB4C600FEC00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC834112208DB4C600FEC00D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC834113208DB4C600FEC00D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC834117208DB4C600FEC00D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC834118208DB4C600FEC00D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC834133208DB4C600FEC00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC834134208DB4C600FEC00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC834136208DB4C600FEC00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF92E7DF8D6A67CF7E359C6C /* Pods-YLFloatBall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC834137208DB4C600FEC00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B58BEBAC1A91043A1BF885 /* Pods-YLFloatBall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC834139208DB4C600FEC00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLFloatBall.app/YLFloatBall";
+			};
+			name = Debug;
+		};
+		BC83413A208DB4C600FEC00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLFloatBall.app/YLFloatBall";
+			};
+			name = Release;
+		};
+		BC83413C208DB4C600FEC00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLFloatBall;
+			};
+			name = Debug;
+		};
+		BC83413D208DB4C600FEC00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F3NP76F26;
+				INFOPLIST_FILE = YLFloatBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulu.study1.YLFloatBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLFloatBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC834104208DB4C500FEC00D /* Build configuration list for PBXProject "YLFloatBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC834133208DB4C600FEC00D /* Debug */,
+				BC834134208DB4C600FEC00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC834135208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC834136208DB4C600FEC00D /* Debug */,
+				BC834137208DB4C600FEC00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC834138208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC834139208DB4C600FEC00D /* Debug */,
+				BC83413A208DB4C600FEC00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC83413B208DB4C600FEC00D /* Build configuration list for PBXNativeTarget "YLFloatBallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC83413C208DB4C600FEC00D /* Debug */,
+				BC83413D208DB4C600FEC00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC834101208DB4C500FEC00D /* Project object */;
+}
